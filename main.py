@@ -6,7 +6,7 @@ from langchain_experimental.sql import SQLDatabaseChain
 
 def get_connection():
     db_user = "root"
-    db_password = "1042002"
+    db_password = "*******"
     db_host = "localhost"
     db_name = "hospital_management_system"
     db = SQLDatabase.from_uri(f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}")
